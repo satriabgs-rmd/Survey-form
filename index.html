@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Keshi Survey Form</h1>
+    <p id="description">Thank you for your partisipation in this survey, have a nice day</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">
+            Name
+            <input type="text" id="name" placeholder="Enter your name" name="" required>
+        </label>
+        <label for="email" id="email-label">
+            Email
+            <input type="email" id="email" placeholder="Enter your email" name="" required>
+        </label>
+        <label for="number" id="number-label">
+            Age (optional)
+            <input type="number" id="number"  placeholder="How old are you?" name="" min="15" max="40" required>
+        </label>
+        <label for="dropdown">
+            Which one your favorite song
+            <select name="" id="dropdown">
+                <option value="" disabled selected >Select one song</option>
+                <option value="">Blue</option>
+                <option value="">Less Of You</option>
+                <option value="">Summer</option>
+                <option value="">B.Y.S</option>
+                <option value="">More</option>
+            </select>
+        </label>
+        <label for="tahun" id="year-label">
+            When did you know keshi song </label>
+            <input type="radio" name="tahun" value="2017"> 2017 <br>
+            <input type="radio" name="tahun" value="2018"> 2018 <br>
+            <input type="radio" name="tahun" value="2019"> 2019 <br>
+            <input type="radio" name="tahun" value="2020"> 2020 <br>
+            <input type="radio" name="tahun" value="2021"> 2021 <br><br><br>
+
+        <label for="" id="feel-label">
+            What do you feel when you hear the song keshi
+        </label>
+            <input type="checkbox" value="relaxed"> Relaxed <br>
+            <input type="checkbox" value="chill"> Chill <br>
+            <input type="checkbox" value="happy"> Happy <br>
+            <input type="checkbox" value="sad"> Sad <br><br><br><br><br>
+        
+            <label for="textarea">
+                Any comments or suggestions?
+                <textarea name="" id="textarea" placeholder="Enter your comment here.."></textarea>
+                <button id="submit">submit</button>
+            </label>
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
